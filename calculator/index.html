@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Skein Calculator — Yarn 2 Yarn</title>
-    <meta name="description" content="Estimate exactly how much yarn you need for any project. Upload a .yy file, enter your swatch, get a safe range." />
+    <meta name="description" content="Estimate the yarn you actually need." />
     <link rel="stylesheet" href="../css/styles-DPJXZZEX.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
@@ -28,41 +28,47 @@
           </nav>
         </div>
       </header>
-
       <main class="mx-auto flex max-w-6xl flex-col gap-8 px-5 py-16 md:py-24">
         <section class="rounded-[2rem] border-2 border-ink bg-white p-8 shadow-[8px_8px_0_var(--ink)] md:p-12">
           <div class="flex flex-wrap items-center gap-3">
-            <span class="rounded-full border border-ink px-3 py-1 text-xs font-semibold uppercase tracking-[0.32em] text-raspberry">Skein Calculator</span>
-            <span class="rounded-full bg-cream px-3 py-1 text-xs font-semibold uppercase tracking-[0.32em] text-ink/70">Yarn 2 Yarn</span>
+            <span class="rounded-full border border-ink px-3 py-1 text-xs font-semibold uppercase tracking-[0.32em] text-raspberry">SKEIN CALCULATOR</span>
           </div>
-          <h1 class="mt-6 font-display text-4xl leading-none md:text-6xl">Estimate exactly how much yarn you need for any project.</h1>
-          <p class="mt-6 max-w-3xl text-lg leading-8 text-ink/80">Upload a .yy file, enter your swatch, and get a safe range before you cast on.</p>
+          <h1 class="mt-6 font-display text-4xl leading-none md:text-6xl">Estimate the yarn you actually need.</h1>
+          <p class="mt-6 max-w-3xl text-lg leading-8 text-ink/80">Choose Simple or Precise, drop your file or type your dimensions, enter your swatch mass — get a weight estimate with a safety range so you never run out mid-row.</p>
           <div class="mt-8 flex flex-wrap gap-3">
-            <a class="inline-flex items-center rounded-full bg-raspberry px-5 py-3 text-sm font-semibold text-cream shadow-[3px_3px_0_var(--ink)] transition hover:-translate-y-0.5" href="../patterns/">Explore patterns</a>
-            <a class="inline-flex items-center rounded-full border-2 border-ink px-5 py-3 text-sm font-semibold text-ink transition hover:bg-ink hover:text-cream" href="../process/">Meet the maker</a>
+            <a class="inline-flex items-center rounded-full bg-raspberry px-5 py-3 text-sm font-semibold text-cream shadow-[3px_3px_0_var(--ink)] transition hover:-translate-y-0.5" href="../patterns/">Open the calculator</a>
           </div>
         </section>
-
         <section class="grid gap-6 md:grid-cols-3">
           <div class="rounded-[1.5rem] border-2 border-ink bg-cream p-8 shadow-[4px_4px_0_var(--ink)]">
-            <h2 class="font-display text-2xl">Precise or simple mode</h2>
-            <p class="mt-3 text-base leading-7 text-ink/80">Switch between detailed calculations and a quick estimate depending on how much control you want.</p>
+            <h2 class="font-display text-2xl">MODE 1<br/>Precise</h2>
+            <p class="mt-3 text-base leading-7 text-ink/80">Drop a .yy or .zip file. We compute the exact area from your pattern.</p>
           </div>
           <div class="rounded-[1.5rem] border-2 border-ink bg-cream p-8 shadow-[4px_4px_0_var(--ink)]">
-            <h2 class="font-display text-2xl">Safe margin included</h2>
-            <p class="mt-3 text-base leading-7 text-ink/80">Every result keeps a little extra yarn in reserve so your project feels safer from the start.</p>
+            <h2 class="font-display text-2xl">MODE 2<br/>Simple</h2>
+            <p class="mt-3 text-base leading-7 text-ink/80">Just enter length × width. Add mirror × 2 if you're knitting both sides.</p>
           </div>
           <div class="rounded-[1.5rem] border-2 border-ink bg-cream p-8 shadow-[4px_4px_0_var(--ink)]">
-            <h2 class="font-display text-2xl">Ready for your next cast-on</h2>
-            <p class="mt-3 text-base leading-7 text-ink/80">The output is clear and practical, whether you are planning a sweater, a shawl, or a small accessory.</p>
+            <h2 class="font-display text-2xl">MODE 3<br/>Direct area</h2>
+            <p class="mt-3 text-base leading-7 text-ink/80">You already know the surface? Type it in cm² and skip ahead.</p>
           </div>
         </section>
+        <section class="rounded-[2rem] border-2 border-ink bg-white p-8 shadow-[8px_8px_0_var(--ink)] md:p-12">
+          <h2 class="font-display text-3xl">HOW IT WORKS</h2>
+          <div class="mt-8 grid gap-6 md:grid-cols-2">
+            <div class="rounded-[1.25rem] border border-ink p-6"><h3 class="font-display text-xl">Swatch in. Yarn mass out.</h3><p class="mt-3 text-base leading-7 text-ink/80">Pick a mode — Precise (upload .yy / .zip), Simple (length × width) or Direct area.</p></div>
+            <div class="rounded-[1.25rem] border border-ink p-6"><h3 class="font-display text-xl">Choose your unit system</h3><p class="mt-3 text-base leading-7 text-ink/80">Choose grams & centimetres, or ounces & inches.</p></div>
+            <div class="rounded-[1.25rem] border border-ink p-6"><h3 class="font-display text-xl">Enter your swatch</h3><p class="mt-3 text-base leading-7 text-ink/80">Enter your swatch width, height and mass — the bigger the swatch, the better.</p></div>
+            <div class="rounded-[1.25rem] border border-ink p-6"><h3 class="font-display text-xl">Read your estimate</h3><p class="mt-3 text-base leading-7 text-ink/80">Read your estimated mass, plus a safety range that always adds +10 %.</p></div>
+          </div>
+          <p class="mt-8 text-lg leading-8 text-ink/80">Quick note: bigger swatches give better estimates. The +10 % margin keeps you safe.</p>
+          <a class="mt-8 inline-flex items-center rounded-full bg-raspberry px-5 py-3 text-sm font-semibold text-cream shadow-[3px_3px_0_var(--ink)] transition hover:-translate-y-0.5" href="../patterns/">Try it now</a>
+        </section>
       </main>
-
       <footer class="border-t-2 border-ink bg-cream/90">
         <div class="mx-auto flex max-w-6xl flex-col gap-3 px-5 py-8 text-sm text-ink/70 md:flex-row md:items-center md:justify-between">
-          <p>© 2026 Yarn 2 Yarn. All rights reserved.</p>
-          <a class="font-medium text-ink" href="../">Back to home</a>
+          <p>© 2026 Desiknit — All rights reserved.</p>
+          <p>Lifetime license · Two computers · €30 · Zero cookies 🍪🚫</p>
         </div>
       </footer>
     </div>
